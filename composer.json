@@ -1,0 +1,24 @@
+{
+    "name": "gatovel/cache",
+    "description": "Sistema de cache modular e independente para aplicações PHP.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gatovel\\Cache\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Gatovel\\Cache\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require-dev": {
+        "predis/predis": "^3.0"
+    }
+}

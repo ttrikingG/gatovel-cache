@@ -1,0 +1,29 @@
+# Composer
+/vendor/
+/composer.lock
+
+# Testes locais
+/tests/
+
+# Ambiente
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários
+*.log
+*.tmp
+*.cache
+.phpunit.cache/
+.phpunit.result.cache
+
+# Cobertura de testes
+/coverage/
