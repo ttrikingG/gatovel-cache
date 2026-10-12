@@ -1,10 +1,24 @@
+
 {
     "name": "gatovel/cache",
     "description": "Sistema de cache modular e independente para aplicações PHP.",
     "type": "library",
     "license": "MIT",
+    "keywords": [
+        "cache",
+        "redis",
+        "php",
+        "gatovel",
+        "framework"
+    ],
     "require": {
         "php": "^8.3"
+    },
+    "require-dev": {
+        "predis/predis": "^3.0"
+    },
+    "suggest": {
+        "predis/predis": "Necessário para utilizar o RedisDriver."
     },
     "autoload": {
         "psr-4": {
@@ -17,8 +31,5 @@
         }
     },
     "minimum-stability": "stable",
-    "prefer-stable": true,
-    "require-dev": {
-        "predis/predis": "^3.0"
-    }
+    "prefer-stable": true
 }
